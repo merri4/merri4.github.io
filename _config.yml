@@ -47,13 +47,43 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
+# menu:
+
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
+
+  # - title:             Example
+  #   url:               /example/
+  # - title:             Documentation
+  #   url:               /docs/
+
+  - title:             ABOUT
     url:               /about/
+
+  # todo : TECH는 하위 메뉴 만들고, 최하위 메뉴는 리스트로 만들기
+  - title:             TECH
+    url:               /tech/
+    submenu: 
+      - title:         PAPER REVIEW
+        url:           /paperreview/
+      - title:         XAI
+        url:           /xai/
+      - title:         BIOLOGY
+        url:           /biology/
+      - title:         PYTORCH
+        url:           /pytorch/
+
+  - title:             PLAY
+    url:               /play/
+    submenu:
+      - title:         DIARY
+        url:           /diary/
+      - title:         DAILY YOUTUBE
+        url:           /dailyyt/
+      - title:         QUOTES
+        url:           /quotes/
+  
+  - title:             LEGASOV TAPE
+    url:               /legasovtape/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -81,8 +111,8 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # TODO : Change when running Local or Remote
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.6
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9.1.6
 
 
 # Customizaton
@@ -116,7 +146,7 @@ defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
   - scope:
-      path:            hydejack/
+      path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
       theme_color:     rgb(32,32,32)
@@ -166,6 +196,9 @@ kramdown:
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
+favicon: /assets/img/icons/favicon.ico
+
+
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
@@ -175,7 +208,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:               https-merri4-github-io
+# disqus:               https-merri4-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
