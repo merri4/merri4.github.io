@@ -10,7 +10,7 @@ slug: biology
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  <생명과학을 위한 딥러닝> 리뷰
+  《생명과학을 위한 딥러닝》 리뷰
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
