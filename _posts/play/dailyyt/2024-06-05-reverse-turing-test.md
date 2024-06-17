@@ -3,7 +3,7 @@ layout: post
 # related_posts:
 #   - /legasovtape/legasov_1B/
 title: "리버스 튜링 테스트 Reverse Turing Test"
-date: 2024-06-05 11:00:00 +0900
+date: 2024-06-05 00:00:00 +0900
 categories: 
   - play
   - dailyyt

@@ -3,7 +3,7 @@ layout: post
 # related_posts:
 #   - /legasovtape/legasov_1B/
 title: "정규분포, 파이(π), 그리고 몬테 카를로"
-date: 2024-05-22 11:00:00 +0900
+date: 2024-05-24 00:00:00 +0900
 categories: 
   - play
   - dailyyt
