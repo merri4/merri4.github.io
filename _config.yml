@@ -62,6 +62,8 @@ menu:
   - title:             TECH
     url:               /tech/
     submenu: 
+      - title:         PROJECT
+        url:           /project/
       - title:         PAPER REVIEW
         url:           /paperreview/
       - title:         XAI
