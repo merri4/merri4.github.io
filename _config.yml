@@ -78,8 +78,6 @@ menu:
     submenu:
       - title:         DIARY
         url:           /diary/
-      - title:         DAILY YOUTUBE
-        url:           /dailyyt/
       - title:         QUOTES
         url:           /quotes/
   
@@ -113,7 +111,7 @@ paginate_path:         /:num/
 
 # TODO : Change when running Local or Remote
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.6
+remote_theme: hydecorp/hydejack@v9.2.1
 
 
 # Customizaton

@@ -6,7 +6,7 @@ title: "정규분포, 파이(π), 그리고 몬테 카를로"
 date: 2024-05-24 00:00:00 +0900
 categories: 
   - play
-  - dailyyt
+  - diary
 ---
 
 * toc

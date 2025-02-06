@@ -6,7 +6,7 @@ title: "리버스 튜링 테스트 Reverse Turing Test"
 date: 2024-06-05 00:00:00 +0900
 categories: 
   - play
-  - dailyyt
+  - diary
 ---
 
 <iframe title="Reverse Turing Test Experiment with AIs" src="https://www.youtube.com/embed/MxTWLm9vT_o?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76991 / 1; width: 100%; height: 100%;" allowfullscreen="" allow="fullscreen"></iframe>
