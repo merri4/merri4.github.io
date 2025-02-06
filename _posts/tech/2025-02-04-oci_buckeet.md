@@ -11,7 +11,7 @@ OCI가 다른 클라우드 서비스보다 좀 더 나은 free tier allowance를
 
 ### OCI Bucket
 ---
-OCI Bucket은 객체 스토리지 서비스로 다양한 멀티미디어를 업로드하고 관리할 수 있다. [Free Tier로는 20GB까지 지원](https://kyuntechblog.tistory.com/39)되며, 별도의 볼륨을 생성할 필요는 없다.
+OCI Bucket은 객체 스토리지 서비스로 다양한 멀티미디어를 업로드하고 관리할 수 있다. [Free Tier로는 20GB까지 지원](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#objectstorage)되며, 별도의 볼륨을 생성할 필요는 없다.
 
 
 
