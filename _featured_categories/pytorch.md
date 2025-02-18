@@ -10,7 +10,7 @@ slug: pytorch
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Pytorch related troubleshooting.
+  Pytorch related stuffs.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
