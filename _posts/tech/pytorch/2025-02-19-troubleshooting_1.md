@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "one of the variables needed for gradient computation has been modified by an inplace operation 오류"
-date: 2025-02-19 19:00:00 +0900
+date: 2025-02-19 00:00:00 +0900
 categories:
   - tech
   - pytorch
