@@ -68,8 +68,6 @@ menu:
         url:           /paperreview/
       - title:         XAI
         url:           /xai/
-      - title:         BIOLOGY
-        url:           /biology/
       - title:         PYTORCH
         url:           /pytorch/
 
