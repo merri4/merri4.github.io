@@ -1,28 +1,176 @@
----
----
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
-  {% endfor %}
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://merri4.github.io/play/diary/openMP_monte_carlo/</loc>
+    <lastmod>2025-07-07T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/openMP_collapse/</loc>
+    <lastmod>2025-07-06T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/parallel_metrics/</loc>
+    <lastmod>2025-07-02T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/paperreview/paper_8/</loc>
+    <lastmod>2025-03-10T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/troubleshooting_2/</loc>
+    <lastmod>2025-02-19T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/troubleshooting_1/</loc>
+    <lastmod>2025-02-18T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/nanoKoGPT_4/</loc>
+    <lastmod>2025-02-17T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/nanoKoGPT_3/</loc>
+    <lastmod>2025-02-16T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/nanoKoGPT_2/</loc>
+    <lastmod>2025-02-13T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/pytorch/nanoKoGPT_1/</loc>
+    <lastmod>2025-02-12T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/xai/xai_1/</loc>
+    <lastmod>2025-02-11T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/oci_buckeet/</loc>
+    <lastmod>2025-02-03T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/play/diary/reverse-turing-test/</loc>
+    <lastmod>2024-06-04T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/play/diary/monte-carlo/</loc>
+    <lastmod>2024-05-23T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/legasovtape/legasovtape_1/</loc>
+    <lastmod>2024-05-23T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/paperreview/paper_7/</loc>
+    <lastmod>2024-05-22T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/jekyll/update/welcome-to-jekyll/</loc>
+    <lastmod>2024-05-16T12:55:41+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/play/quotes/watchmen/</loc>
+    <lastmod>2024-02-04T13:45:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/play/quotes/kingdomofheaven/</loc>
+    <lastmod>2023-12-29T01:49:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/project/FastPerm_4/</loc>
+    <lastmod>2023-11-24T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/project/FastPerm_3/</loc>
+    <lastmod>2023-11-21T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/project/FastPerm_2/</loc>
+    <lastmod>2023-11-16T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/project/FastPerm_1/</loc>
+    <lastmod>2023-11-13T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/project/FastPerm_0/</loc>
+    <lastmod>2023-11-11T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/tech/paperreview/paper_1/</loc>
+    <lastmod>2023-03-14T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/example/introducing-hydejack-9/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/example/example-content-iii/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/example/example-content-ii/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://merri4.github.io/example/example-content/</loc>
+    <lastmod>2012-02-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
